@@ -1,21 +1,178 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div></div>
-    <h1 id="player-score"></h1>
-    <button id="start-button">Start</button>
-    <button id="hit-button">Hit</button>
-    <div class="container">
-        <div id="dealer-area"></div>
-        <div id="player-area"></div>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body class="bg-gray-800">
+    <div
+      id="header"
+      class="flex flex-col justify-center items-center mx-auto my-8"
+    >
+      <h1 class="text-6xl font-bold text-white">
+        <span class="text-red-500">BLACK</span>JACK
+        <span class="text-4xl pl-4 pr-1 pt-3 bg-yellow-500 text-gray-900"
+          >JS</span
+        >
+      </h1>
+      <h1 class="text-2xl text-white italic">by Alston Chan</h1>
     </div>
-    <div id="game-log"></div>
+    <div
+      id="notification-area"
+      class="flex flex-col justify-center items-center mx-auto my-8"
+    >
+      <h1
+        id="notification-text"
+        class="text-3xl font-bold m-4 text-white rounded hidden"
+      ></h1>
+    </div>
+    <div
+      class="score-area container w-1/2 flex flex-row justify-between m-auto"
+    >
+      <h1
+        id="player-score"
+        class="
+          text-3xl
+          font-bold
+          m-4
+          bg-blue-700
+          hover:bg-blue-800
+          text-white
+          py-2
+          px-4
+          rounded
+        "
+      >
+        Player Score: 0
+      </h1>
+      <h1
+        id="dealer-score"
+        class="
+          text-3xl
+          font-bold
+          m-4
+          bg-red-600
+          hover:bg-red-700
+          text-white
+          py-2
+          px-4
+          rounded
+        "
+      >
+        Dealer Score: 0
+      </h1>
+    </div>
+    <div
+      class="
+        container
+        w-1/2
+        flex flex-col
+        justify-center
+        m-auto
+        border-8
+        rounded-md
+        border-yellow-800
+      "
+    >
+      <div
+        id="dealer-area"
+        class="
+          border-opacity-20
+          h-60
+          flex
+          items-center
+          justify-center
+          bg-green-600
+        "
+      ></div>
+      <div
+        id="player-area"
+        class="
+          border-t-4 border-opacity-20
+          h-60
+          flex
+          items-center
+          justify-center
+          bg-green-600
+        "
+      ></div>
+    </div>
+    <div id="button-container" class="flex justify-center m-4">
+      <button
+        id="start-button"
+        class="
+          m-2
+          bg-green-800
+          hover:bg-green-700
+          text-white
+          font-bold
+          py-2
+          px-4
+          border-b-4 border-green-900
+          hover:border-green-800
+          rounded
+        "
+      >
+        Start Game
+      </button>
+      <button
+        id="hit-button"
+        class="
+          m-2
+          bg-green-500
+          hover:bg-green-400
+          text-white
+          font-bold
+          py-2
+          px-6
+          border-b-4 border-green-700
+          hover:border-green-500
+          rounded
+          hidden
+        "
+      >
+        Hit
+      </button>
+      <button
+        id="stand-button"
+        class="
+          m-2
+          bg-red-500
+          hover:bg-red-400
+          text-white
+          font-bold
+          py-2
+          px-4
+          border-b-4 border-red-700
+          hover:border-red-500
+          rounded
+          hidden
+        "
+      >
+        Stand
+      </button>
+      <button
+        id="reset-button"
+        class="
+          m-2
+          bg-purple-500
+          hover:bg-purple-400
+          text-white
+          font-bold
+          py-2
+          px-6
+          border-b-4 border-purple-700
+          hover:border-purple-500
+          rounded
+          hidden
+        "
+      >
+        Reset
+      </button>
+    </div>
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

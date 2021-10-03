@@ -3,313 +3,313 @@ const deck = [
     name: "Ace",
     suit: "Hearts",
     value: 1,
-    image: "https://deckofcardsapi.com/static/img/AH.png",
+    image: "img/AofHearts.png",
   },
   {
     name: "Ace",
     suit: "Diamonds",
     value: 1,
-    image: "https://deckofcardsapi.com/static/img/AD.png",
+    image: "img/AofDmnds.png",
   },
   {
     name: "Ace",
     suit: "Spades",
     value: 1,
-    image: "https://deckofcardsapi.com/static/img/AS.png",
+    image: "img/AofSpades.png",
   },
   {
     name: "Ace",
     suit: "Clubs",
     value: 1,
-    image: "https://deckofcardsapi.com/static/img/AC.png",
+    image: "img/AofClubs.png",
   },
   {
     name: "Two",
     suit: "Hearts",
     value: 2,
-    image: "https://deckofcardsapi.com/static/img/2H.png",
+    image: "img/2ofHearts.png",
   },
   {
     name: "Two",
     suit: "Diamonds",
     value: 2,
-    image: "https://deckofcardsapi.com/static/img/2D.png",
+    image: "img/2ofDmnds.png",
   },
   {
     name: "Two",
     suit: "Spades",
     value: 2,
-    image: "https://deckofcardsapi.com/static/img/2S.png",
+    image: "img/2ofSpades.png",
   },
   {
     name: "Two",
     suit: "Clubs",
     value: 2,
-    image: "https://deckofcardsapi.com/static/img/2C.png",
+    image: "img/2ofClubs.png",
   },
   {
     name: "Three",
     suit: "Hearts",
     value: 3,
-    image: "https://deckofcardsapi.com/static/img/3H.png",
+    image: "img/3ofHearts.png",
   },
   {
     name: "Three",
     suit: "Diamonds",
     value: 3,
-    image: "https://deckofcardsapi.com/static/img/3D.png",
+    image: "img/3ofDmnds.png",
   },
   {
     name: "Three",
     suit: "Spades",
     value: 3,
-    image: "https://deckofcardsapi.com/static/img/3D.png",
+    image: "img/3ofSpades.png",
   },
   {
     name: "Three",
     suit: "Clubs",
     value: 3,
-    image: "https://deckofcardsapi.com/static/img/3C.png",
+    image: "img/3ofClubs.png",
   },
   {
     name: "Four",
     suit: "Hearts",
     value: 4,
-    image: "https://deckofcardsapi.com/static/img/4H.png",
+    image: "img/4ofHearts.png",
   },
   {
     name: "Four",
     suit: "Diamonds",
     value: 4,
-    image: "https://deckofcardsapi.com/static/img/4D.png",
+    image: "img/4ofDmnds.png",
   },
   {
     name: "Four",
     suit: "Spades",
     value: 4,
-    image: "https://deckofcardsapi.com/static/img/4S.png",
+    image: "img/4ofSpades.png",
   },
   {
     name: "Four",
     suit: "Clubs",
     value: 4,
-    image: "https://deckofcardsapi.com/static/img/4C.png",
+    image: "img/4ofClubs.png",
   },
   {
     name: "Five",
     suit: "Hearts",
     value: 5,
-    image: "https://deckofcardsapi.com/static/img/5H.png",
+    image: "img/5ofHearts.png",
   },
   {
     name: "Five",
     suit: "Diamonds",
     value: 5,
-    image: "https://deckofcardsapi.com/static/img/5D.png",
+    image: "img/5ofDmnds.png",
   },
   {
     name: "Five",
     suit: "Spades",
     value: 5,
-    image: "https://deckofcardsapi.com/static/img/5S.png",
+    image: "img/5ofSpades.png",
   },
   {
     name: "Five",
     suit: "Clubs",
     value: 5,
-    image: "https://deckofcardsapi.com/static/img/5C.png",
+    image: "img/5ofClubs.png",
   },
   {
     name: "Six",
     suit: "Hearts",
     value: 6,
-    image: "https://deckofcardsapi.com/static/img/6H.png",
+    image: "img/6ofHearts.png",
   },
   {
     name: "Six",
     suit: "Diamonds",
     value: 6,
-    image: "https://deckofcardsapi.com/static/img/6D.png",
+    image: "img/6ofDmnds.png",
   },
   {
     name: "Six",
     suit: "Spades",
     value: 6,
-    image: "https://deckofcardsapi.com/static/img/6S.png",
+    image: "img/6ofSpades.png",
   },
   {
     name: "Six",
     suit: "Clubs",
     value: 6,
-    image: "https://deckofcardsapi.com/static/img/6C.png",
+    image: "img/6ofClubs.png",
   },
   {
     name: "Seven",
     suit: "Hearts",
     value: 7,
-    image: "https://deckofcardsapi.com/static/img/7H.png",
+    image: "img/7ofHearts.png",
   },
   {
     name: "Seven",
     suit: "Diamonds",
     value: 7,
-    image: "https://deckofcardsapi.com/static/img/7D.png",
+    image: "img/7ofDmnds.png",
   },
   {
     name: "Seven",
     suit: "Spades",
     value: 7,
-    image: "https://deckofcardsapi.com/static/img/7S.png",
+    image: "img/7ofSpades.png",
   },
   {
     name: "Seven",
     suit: "Clubs",
     value: 7,
-    image: "https://deckofcardsapi.com/static/img/7C.png",
+    image: "img/7ofClubs.png",
   },
   {
     name: "Eight",
     suit: "Hearts",
     value: 8,
-    image: "https://deckofcardsapi.com/static/img/8H.png",
+    image: "img/8ofHearts.png",
   },
   {
     name: "Eight",
     suit: "Diamonds",
     value: 8,
-    image: "https://deckofcardsapi.com/static/img/8D.png",
+    image: "img/8ofDmnds.png",
   },
   {
     name: "Eight",
     suit: "Spades",
     value: 8,
-    image: "https://deckofcardsapi.com/static/img/8S.png",
+    image: "img/8ofSpades.png",
   },
   {
     name: "Eight",
     suit: "Clubs",
     value: 8,
-    image: "https://deckofcardsapi.com/static/img/8C.png",
+    image: "img/8ofClubs.png",
   },
   {
     name: "Nine",
     suit: "Hearts",
     value: 9,
-    image: "https://deckofcardsapi.com/static/img/9H.png",
+    image: "img/9ofHearts.png",
   },
   {
     name: "Nine",
     suit: "Diamonds",
     value: 9,
-    image: "https://deckofcardsapi.com/static/img/9D.png",
+    image: "img/9ofDmnds.png",
   },
   {
     name: "Nine",
     suit: "Spades",
     value: 9,
-    image: "https://deckofcardsapi.com/static/img/9S.png",
+    image: "img/9ofSpades.png",
   },
   {
     name: "Nine",
     suit: "Clubs",
     value: 9,
-    image: "https://deckofcardsapi.com/static/img/9C.png",
+    image: "img/9ofClubs.png",
   },
   {
     name: "Ten",
     suit: "Hearts",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/0H.png",
+    image: "img/10ofHearts.png",
   },
   {
     name: "Ten",
     suit: "Diamonds",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/0D.png",
+    image: "img/10ofDmnds.png",
   },
   {
     name: "Ten",
     suit: "Spades",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/0S.png",
+    image: "img/10ofSpades.png",
   },
   {
     name: "Ten",
     suit: "Clubs",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/0C.png",
+    image: "img/10ofClubs.png",
   },
   {
     name: "Jack",
     suit: "Hearts",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/10J.png",
+    image: "img/JofHearts.png",
   },
   {
     name: "Jack",
     suit: "Diamonds",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/JD.png",
+    image: "img/JofDmnds.png",
   },
   {
     name: "Jack",
     suit: "Spades",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/JS.png",
+    image: "img/JofSpades.png",
   },
   {
     name: "Jack",
     suit: "Clubs",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/JC.png",
+    image: "img/JofClubs.png",
   },
   {
     name: "Queen",
     suit: "Hearts",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/QH.png",
+    image: "img/QofHearts.png",
   },
   {
     name: "Queen",
     suit: "Diamonds",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/QD.png",
+    image: "img/QofDmnds.png",
   },
   {
     name: "Queen",
     suit: "Spades",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/QS.png",
+    image: "img/QofSpades.png",
   },
   {
     name: "Queen",
     suit: "Clubs",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/QC.png",
+    image: "img/QofClubs.png",
   },
   {
     name: "King",
     suit: "Hearts",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/KH.png",
+    image: "img/KofHearts.png",
   },
   {
     name: "King",
     suit: "Diamonds",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/KD.png",
+    image: "img/KofDmnds.png",
   },
   {
     name: "King",
     suit: "Spades",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/KS.png",
+    image: "img/KofSpades.png",
   },
   {
     name: "King",
     suit: "Clubs",
     value: 10,
-    image: "https://deckofcardsapi.com/static/img/KC.png",
+    image: "img/KofClubs.png",
   },
 ];
 
@@ -325,27 +325,128 @@ shuffle(deck);
 console.log(deck);
 
 let hand = [];
-let handvalue = 0;
+let handValue = 0;
+let dealerHand = [];
+let dealerHandValue = 0;
 
-const gameLog = document.getElementById("game-log");
 const playerScore = document.getElementById("player-score");
 const playerArea = document.getElementById("player-area");
+const dealerScore = document.getElementById("dealer-score");
+const dealerArea = document.getElementById("dealer-area");
+const notificationText = document.getElementById("notification-text");
 
+document.getElementById("start-button").addEventListener("click", function () {
+  startGame();
+});
 document.getElementById("hit-button").addEventListener("click", function () {
+  hitMe();
+});
+document.getElementById("stand-button").addEventListener("click", function () {
+  endTurn();
+});
+document.getElementById("reset-button").addEventListener("click", function () {
+  resetGame();
+});
+
+function hitMe() {
   let drawnCard = deck.pop();
   hand.push(drawnCard);
-  gameLog.insertAdjacentHTML(
-    "beforeend",
-    `<p>You drew a ${drawnCard.name} of ${drawnCard.suit}</p>`
-  );
   playerArea.insertAdjacentHTML(
     "beforeend",
-    `<img class="card-img" src="${drawnCard.image}" alt="${drawnCard.name} of ${drawnCard.suit}">`
+    `<img class="card-img h-4/5 w-auto p-2" src="${drawnCard.image}" alt="${drawnCard.name} of ${drawnCard.suit}">`
   );
-  console.log(hand);
-  handvalue += drawnCard.value;
-  playerScore.innerHTML = `Your Score: ${handvalue}`;
-  if (handvalue > 21) {
-    playerScore.insertAdjacentHTML("beforeend", `<h1>BUST!!</h1>`);
+  handValue += drawnCard.value;
+  playerScore.innerHTML = `Player Score: ${handValue}`;
+  if (handValue > 21) {
+    document.getElementById("notification-text").classList.remove("hidden");
+    notificationText.innerText =
+      "Bust! Wait for the dealer to play their turn.";
+    document.getElementById("hit-button").classList.add("hidden");
   }
-});
+}
+
+function dealerInit() {
+  let dealerDrawnCard = deck.pop();
+  dealerHand.push(dealerDrawnCard);
+  dealerArea.insertAdjacentHTML(
+    "beforeend",
+    `<img class="card-img h-4/5 w-auto p-2" src="${dealerDrawnCard.image}" alt="${dealerDrawnCard.name} of ${dealerDrawnCard.suit}">`
+  );
+  dealerArea.insertAdjacentHTML(
+    "beforeend",
+    `<img class="card-img h-4/5 w-auto p-2" src="img/CardBack1.png" alt="Back of Card">`
+  );
+  dealerHandValue += dealerDrawnCard.value;
+  dealerScore.innerHTML = `Dealer Score: >${dealerHandValue}`;
+}
+
+function endTurn() {
+  dealerArea.removeChild(dealerArea.lastChild);
+  document.getElementById("hit-button").classList.add("hidden");
+  document.getElementById("stand-button").classList.add("hidden");
+  while (dealerHandValue <= 17) {
+    let dealerDrawnCard = deck.pop();
+    dealerHand.push(dealerDrawnCard);
+    dealerArea.insertAdjacentHTML(
+      "beforeend",
+      `<img class="card-img h-4/5 w-auto p-2" src="${dealerDrawnCard.image}" alt="${dealerDrawnCard.name} of ${dealerDrawnCard.suit}">`
+    );
+    dealerHandValue += dealerDrawnCard.value;
+    dealerScore.innerHTML = `Dealer Score: ${dealerHandValue}`;
+    if (dealerHandValue > 21) {
+      document.getElementById("notification-text").classList.remove("hidden");
+      notificationText.innerText = "Dealer busted. You win!";
+    }
+    if (dealerHandValue > 21 && handValue > 21) {
+      document.getElementById("notification-text").classList.remove("hidden");
+      notificationText.innerText = "Draw! You both busted.";
+    }
+    if (dealerHandValue === handValue) {
+      document.getElementById("notification-text").classList.remove("hidden");
+      notificationText.innerText = "Draw! You have the same score.";
+    }
+    if (dealerHandValue <= 21 && dealerHandValue > handValue) {
+      document.getElementById("notification-text").classList.remove("hidden");
+      notificationText.innerText = "You lost. Dealer's hand scored higher.";
+    }
+    if (
+      handValue <= 21 &&
+      dealerHandValue <= 21 &&
+      dealerHandValue < handValue
+    ) {
+      document.getElementById("notification-text").classList.remove("hidden");
+      notificationText.innerText = "You won! Your hand scored higher.";
+    }
+    if (handValue > 21 && dealerHandValue <= 21) {
+      document.getElementById("notification-text").classList.remove("hidden");
+      notificationText.innerText = "You lost. Dealer did not bust.";
+    }
+  }
+}
+
+function resetGame() {
+  deck.push(...hand);
+  deck.push(...dealerHand);
+  shuffle(deck);
+  handValue = 0;
+  dealerHandValue = 0;
+  playerArea.innerHTML = ``;
+  dealerArea.innerHTML = ``;
+  playerScore.innerHTML = `Player Score: ${handValue}`;
+  dealerScore.innerHTML = `Dealer Score: ${dealerHandValue}`;
+  document.getElementById("notification-text").classList.add("hidden");
+  document.getElementById("start-button").classList.remove("hidden");
+  document.getElementById("hit-button").classList.add("hidden");
+  document.getElementById("stand-button").classList.add("hidden");
+  document.getElementById("reset-button").classList.add("hidden");
+}
+
+function startGame() {
+  hitMe();
+  hitMe();
+  dealerInit();
+  document.getElementById("start-button").classList.add("hidden");
+  document.getElementById("hit-button").classList.remove("hidden");
+  document.getElementById("stand-button").classList.remove("hidden");
+  document.getElementById("reset-button").classList.remove("hidden");
+}
