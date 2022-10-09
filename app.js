@@ -427,7 +427,6 @@ function endTurn() {
 function resetGame() {
   deck.push(...hand);
   deck.push(...dealerHand);
-  shuffle(deck);
   handValue = 0;
   dealerHandValue = 0;
   playerArea.innerHTML = ``;
@@ -439,6 +438,7 @@ function resetGame() {
   document.getElementById("hit-button").classList.add("hidden");
   document.getElementById("stand-button").classList.add("hidden");
   document.getElementById("reset-button").classList.add("hidden");
+  shuffle(deck);
 }
 
 function startGame() {
